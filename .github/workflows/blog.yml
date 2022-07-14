@@ -35,6 +35,4 @@ jobs:
         local: './*'
         # local: './dist/*'
         remote: /root/web/blog
-        script: |
-          # npm install
-          npm run start
+        run: npm run start
