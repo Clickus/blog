@@ -32,5 +32,8 @@ jobs:
         user: ${{ secrets.USER_NAME }}
         pass: ${{ secrets.USER_PASS }}
         connect_timeout: 10s
-        local: './dist/*'
+        local: './*'
+        # local: './dist/*'
         remote: /root/web/blog
+    - name: npm run start
+      run: npm run start

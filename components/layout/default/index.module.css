@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  height: 100%;
+  overflow: hidden;
+}
+.header {
+  position: relative;
+  height: 16.6666666666667rem;
+  border-bottom: 1px solid #eaeaea;
+}
+.main {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  min-height: calc(100% - 7rem);
+  overflow: auto;
+}
+.footer {
+  display: flex;
+  height: 3rem;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
