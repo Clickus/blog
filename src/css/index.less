@@ -1,0 +1,105 @@
+@import "./flex.less";
+@import "./animate.less";
+
+* {
+  margin: 0;
+  padding: 0;
+  ::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+}
+#app {
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+}
+html,
+body {
+  // 去掉苹果手机点击瞬间出现的灰色背景
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  // 当需要在中文版chrome浏览器中显示小于12px的字体时，而且此时页面放大效果会被阻止
+  -webkit-text-size-adjust: none;
+  height: 100%;
+}
+body {
+  /* 适配齐刘海*/
+  padding-top: constant(safe-area-inset-top);
+  /* 适配底部黑条*/
+  padding-bottom: constant(safe-area-inset-bottom);
+}
+input {
+  // 去除苹果手机默认的input样式
+  -webkit-appearance: none;
+}
+selector {
+  // 给IOS系统里cursor不为pointer的元素添加事件时会不同程度受影响，加上cursor: pointer可解决
+  cursor: pointer;
+}
+img {
+  pointer-events: none;
+}
+ul {
+  list-style: none;
+}
+
+.ml-4 {
+  margin-left: 4px !important;
+}
+.ml-8 {
+  margin-left: 8px !important;
+}
+.mt-8 {
+  margin-top: 8px !important;
+}
+.mt-16 {
+  margin-top: 16px !important;
+}
+.mt-48 {
+  margin-top: 48px !important;
+}
+
+// 富文本出公用样式
+.rich-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px 16px 20px;
+  box-sizing: border-box;
+  min-height: 96px;
+  .rich-label {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.9);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 16px;
+  }
+  .rich-inner {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+    .van-cell {
+      padding: 8px 8px 0;
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      border-radius: 4px;
+    }
+    .van-field__word-limit {
+      color: rgba(0, 0, 0, 0.2);
+    }
+    .van-field__word-num {
+      color: rgba(0, 0, 0, 0.45);
+    }
+  }
+}
+
+.rich-remark {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.65);
+}
