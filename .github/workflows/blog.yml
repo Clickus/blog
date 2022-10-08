@@ -15,9 +15,11 @@ jobs:
       # 使用别人的action
       - uses: actions/checkout@v2
       # 步骤名称
-      - name: npm install
+      # - name: npm install
+      - name: yarn add
         # 步骤执行指令
-        run: npm install
+        # run: npm install
+        run: yarn
       - name: npm run build
         run: npm run build
       # 命名这个任务为发布Deploy

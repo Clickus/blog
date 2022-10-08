@@ -8,11 +8,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "@vicons/ionicons5": "^0.12.0",
+    "@vitejs/plugin-legacy": "^1.8.2",
+    "axios": "^0.27.2",
+    "dayjs": "^1.10.5",
+    "pinia": "^2.0.14",
+    "pinia-plugin-persist": "^1.0.0",
+    "unplugin-auto-import": "^0.11.2",
+    "unplugin-vue-components": "^0.22.8",
+    "vant": "^3.5.0",
+    "vue": "^3.2.25",
+    "vue-router": "4"
   },
   "devDependencies": {
-    "less": "^4.1.2",
     "@vitejs/plugin-vue": "^2.3.3",
+    "less": "^4.1.2",
+    "naive-ui": "^2.33.3",
+    "vfonts": "0.0.3",
     "vite": "^2.9.9",
     "vite-plugin-vue-setup-extend": "^0.4.0"
   }

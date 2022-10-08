@@ -12,7 +12,6 @@ defineProps({
 <style scoped lang="less">
 .content--wrapper {
   position: fixed;
-  height: ;
   width: 100%;
   top: calc(@default-header-height + 12px);
   bottom: @default-footer-height;
