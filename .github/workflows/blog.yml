@@ -15,6 +15,9 @@ jobs:
     # 使用别人的action
     - uses: actions/checkout@v2
     # 步骤名称
+    - name: npm install hexo-cli
+      # 步骤执行指令
+      run: npm install hexo-cli -g
     - name: yarn
       # 步骤执行指令
       run: yarn
