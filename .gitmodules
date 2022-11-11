@@ -1,0 +1,3 @@
+[submodule "themes/aomori"]
+	path = themes/aomori
+	url = ./
