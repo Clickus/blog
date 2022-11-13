@@ -1,41 +1,21 @@
 ---
-title: 小知识
-date: 2022-11-11 15:35:13
-categories: 小知识
-tags: 小知识-标签
+title: Vue3小知识
 comment: true
 sidebar: true
-# cover: /images/code-cover.png #封面图片
-# video: #封面视频
-#   src: src # 完整视频链接
-#   poster: poster # 完整视频封面图链接
-# photos: #文字头部图片
-#   - /images/1063.png
-#   - /images/cover-2.png
-# # 短文
-# layout: tweet
-# icon: balloon
-
-link_reprint: #转载链接
-  -
-    url: https://juejin.cn/post/7164635658084941837
-    title: 转载自【掘金】
-link_refer: #参考链接
-  -
-    url: https://juejin.cn/post/7164635658084941837
-    title: 参考自【掘金】
-# sticky: 100 #置顶
+link_reprint:
+  - url: null
+    title: null
+link_refer:
+  - url: null
+    title: null
+date: 2022-11-13 22:56:40
+tags:
+categories: vue
 ---
 
 
-## Vue3 小知识
-
-## 撒旦范德萨发达的中我们可以使用
-### 撒旦范德萨发达的渲染出来的内容
-#### 撒旦范德萨发达的选择器将作用于全局选择器将作用于全局
-
----
-
+#### Vue3 小知识
+###### vue3中一些使用技巧 小知识
 <!--more-->
 
 

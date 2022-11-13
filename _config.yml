@@ -112,9 +112,11 @@ aomori_logo_typed_animated: true
 # 头部菜单
 aomori_menu:
   首页: /
+  面试: /interview
+  # 摄影: /photography
+  收藏: /favourite
   存档: /archives
-  摄影: /photography
-  收藏: /collection
+  友情链接: /friends
 # 侧边栏菜单
 aomori_widgets:
   - toc # 文章导航
