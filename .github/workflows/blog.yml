@@ -20,9 +20,9 @@ jobs:
       run: npm install hexo-cli -g
     - name: yarn
       # 步骤执行指令
-    #   run: yarn
+      run: yarn
     # - name: hexo clean
-      run: hexo clean
+      # run: hexo clean
     - name: hexo generate
       run: hexo generate
     - name: ls 
