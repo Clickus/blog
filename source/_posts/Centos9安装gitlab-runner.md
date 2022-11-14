@@ -14,6 +14,7 @@ categories:
 ---
 
 ## Centos9安装gitlab-runner
+<!--more-->
 
 > 下载 
 ```url
@@ -29,7 +30,6 @@ categories:
 
 gitlab-runner register
 
-<!--more-->
 
 #### 问题
 

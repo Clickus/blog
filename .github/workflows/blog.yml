@@ -21,12 +21,10 @@ jobs:
     - name: yarn
       # 步骤执行指令
       run: yarn
-    # - name: hexo clean
-      # run: hexo clean
+    - name: hexo clean
+      run: hexo clean
     - name: hexo generate
       run: hexo generate
-    - name: ls 
-      run: ls
     # 命名这个任务为发布Deploy
     - name: Deploy
       # 因为构建之后，需要把代码上传到服务器上，所以需要连接到ssh，并且做一个拷贝操作
