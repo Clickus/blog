@@ -29,6 +29,7 @@ categories:
 
 gitlab-runner register
 
+<!--more-->
 
 #### 问题
 
