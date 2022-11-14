@@ -19,7 +19,9 @@ categories:
 ##### 特点
   + 返回的是函数， 如果使用需要再次调用
   + 支持柯里化, 参数可以多次传入
+  + 绑定函数也可以使用 new 运算符构造，也就是说还可以将 bind 返回的函数作为构造函数
 
+<!--more-->
 ```js
   // v2.0：支持函数柯里化，分段接收参数
   Function.prototype.bind2 = function (context) {
