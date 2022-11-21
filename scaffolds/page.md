@@ -25,3 +25,7 @@ link_refer: #参考链接
     title: 
 # sticky: 100 #置顶
 ---
+
+
+#### {{ title }}  {{ date }}
+<!--more-->
