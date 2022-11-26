@@ -2,9 +2,9 @@
 title: Vue3小知识
 comment: true
 sidebar: true
-link_reprint:
-  - url: null
-    title: null
+# link_reprint:
+#   - url: null
+#     title: null
 link_refer:
   - url: null
     title: null
@@ -13,11 +13,11 @@ tags:
 categories: vue
 ---
 
-
 #### Vue3 小知识
-###### vue3中一些使用技巧 小知识
-<!--more-->
 
+###### vue3 中一些使用技巧 小知识
+
+<!--more-->
 
 - 全局选择器
   ```css

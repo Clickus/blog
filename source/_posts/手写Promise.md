@@ -2,9 +2,9 @@
 title: 手写Promise
 comment: true
 sidebar: true
-link_reprint:
-  - url: null
-    title: null
+# link_reprint:
+#   - url: null
+#     title: null
 link_refer:
   - url: https://segmentfault.com/a/1190000023180502
     title: 手写Promise - 实现一个基础的Promise

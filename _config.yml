@@ -4,12 +4,12 @@
 
 # Site
 title: Cool
-subtitle: ''
-description: 'Cool的博客'
-keywords: 
+subtitle: ""
+description: "Cool的博客"
+keywords:
 author: Cool
 language: zh-CN
-timezone: 'Asia/Shanghai'
+timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -37,7 +37,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -47,14 +47,14 @@ highlight:
   enable: false
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 prismjs:
   enable: false
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -81,7 +81,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -102,8 +102,7 @@ theme: aomori
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
-
+  type: ""
 
 # 头像
 aomori_logo: null
@@ -113,6 +112,7 @@ aomori_logo_typed_animated: true
 aomori_menu:
   首页: /
   面试: /interview
+  目标: /target
   # 摄影: /photography
   收藏: /favourite
   存档: /archives
@@ -120,9 +120,9 @@ aomori_menu:
 # 侧边栏菜单
 aomori_widgets:
   - toc # 文章导航
-  - category  #文章分类
+  - category #文章分类
   - tag # 文章标签
-  - recent_posts  # 最新文章
+  - recent_posts # 最新文章
   - archive #文章归档
 
 # 知识共享使用许可
@@ -132,8 +132,7 @@ aomori_copyright: false # or false
 
 # 社交媒体
 aomori_social:
-  - 
-    icon: logo-github
+  - icon: logo-github
     url: https://github.com/Clickus
 
 # 百度链接提交
@@ -142,14 +141,11 @@ aomori_baidu_sitepush: true
 # 百度统计
 aomori_baidu_analytics: ""
 
-
 # https://console.leancloud.cn/apps/aha6mKp9AIx3kvfNUohqzyWb-gzGzoHsz/settings/keys
 # 评论
 aomori_valine:
   enable: true
-  appId: 'aha6mKp9AIx3kvfNUohqzyWb-gzGzoHsz'
-  appKey: 'UVnU4UZ3RBskManMNqIJDIKZ'
-
-
-# excerpt_link: 
+  appId: "aha6mKp9AIx3kvfNUohqzyWb-gzGzoHsz"
+  appKey: "UVnU4UZ3RBskManMNqIJDIKZ"
+# excerpt_link:
 # show_all_link: '展开全文'

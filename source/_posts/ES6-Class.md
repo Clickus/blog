@@ -2,9 +2,9 @@
 title: ES6_Class
 comment: true
 sidebar: true
-link_reprint:
-  - url: null
-    title: null
+# link_reprint:
+#   - url: null
+#     title: null
 link_refer:
   - url: https://blog.csdn.net/weixin_39872893/article/details/112177116
     title: es6 类的私有属性_ES6 Class 类总结

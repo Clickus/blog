@@ -2,7 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 tags:
-categories: 
+categories:
 comment: true
 sidebar: true
 # cover: /images/code-cover.png #封面图片
@@ -15,17 +15,16 @@ sidebar: true
 # # 短文
 # layout: tweet
 # icon: balloon
-link_reprint: #转载链接
-  -
-    url: 
-    title: 
+# link_reprint: #转载链接
+#   -
+#     url:
+#     title:
 link_refer: #参考链接
-  -
-    url: 
-    title: 
+  - url:
+    title:
 # sticky: 100 #置顶
 ---
 
+#### {{ title }} {{ date }}
 
-#### {{ title }}  {{ date }}
 <!--more-->
