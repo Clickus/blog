@@ -10,7 +10,7 @@ link_refer:
     title: null
 date: 2022-11-14 16:27:23
 tags:
-categories:
+categories: git
 ---
 
 ## Git 一些问题
@@ -23,4 +23,17 @@ categories:
 ```js
   git config --global http.proxy
   git config --global --unset http.proxy
+```
+
+#### git 关联本地项目
+
+```js
+echo "# fabric-draw" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Clickus/fabric-draw.git
+git push -u origin main
+git push --set-upstream origin main
 ```
