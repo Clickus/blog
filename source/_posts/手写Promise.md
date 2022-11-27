@@ -163,6 +163,9 @@ categories:
       - 第一个参数是成功之后执行的回调函数
       - 第二个参数是失败之后执行的回调函数
       - then 方法在 resolve 或者 reject 执行之后才会执行，并且 then 方法中的值是传给 resolve 或 reject 的参数
+    - 暂存 注册 then 中方法 { onFulfilled, onRejected }
+      - 执行 resolve 是遍历执行 onFulfilled ==> value
+      - 执行 reject 是遍历执行 onRejected ==> reason
 
     ```js
     class MyPromise {
@@ -179,16 +182,23 @@ categories:
       _resolve(value) {
         this.value = value;
         this.status = MyPromise.FULFILLED;
+        this.callbacks.forEach(cb => _handleFn(cb));
       }
       _reject(reason) {
         this.reason = reason;
         this.status = MyPromise.REJECTED;
+        this.callbacks.forEach(cb => _handleFn(cb));
       }
       then(onFulfilled, onRejected) {
         this.callbacks.push({
           onFulfilled,
           onRejected,
         });
+      }
+      _handleFn(cb) {
+        const { onFulfilled, onRejected } = cb;
+        if (this.status === MyPromise.FULFILLED && onFulfilled) onFulfilled(this.value);
+        if (this.status === MyPromise.REJECTED && onRejected) onRejected(this.reason);
       }
     }
     new MyPromise(() => {});

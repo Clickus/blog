@@ -111,8 +111,8 @@ aomori_logo_typed_animated: true
 # 头部菜单
 aomori_menu:
   首页: /
-  面试: /interview
   目标: /target
+  面试: /interview
   # 摄影: /photography
   收藏: /favourite
   存档: /archives

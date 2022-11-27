@@ -37,3 +37,9 @@ git remote add origin https://github.com/Clickus/fabric-draw.git
 git push -u origin main
 git push --set-upstream origin main
 ```
+
+```js
+git config --global http.sslVerify "false"
+git config http.postBuffer 5242880003
+ipconfig /flushdns
+```
